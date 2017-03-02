@@ -5,8 +5,7 @@ from classed_line_trace import LineTrace
 
 ts = ev3.TouchSensor('in3')
 
-if __name__ == "__main__"
-    lt = LineTrace()
-    while not (ts.value()):
-        lt.line_trace()
-    lt.stop()
+lt = LineTrace()
+while not (ts.value()):
+    lt.line_trace()
+lt.stop()
