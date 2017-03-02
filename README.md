@@ -1,2 +1,8 @@
 # line_trace
-EV3 Line Trace
+ev3dev上で、PythonでEV3を動かすサンプルです。
+簡単なLineTraceです。
+
+classed_line_trace.pyにはLineTraceクラスがあります。
+LineTraceクラスにはライントレースの基本的なメソッドがあります。
+
+line_trace.pyはLineTraceクラスの利用例です。
